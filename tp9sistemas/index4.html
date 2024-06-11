@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Pago</title>
+</head>
+<body>
+    <h1>Ingrese sus datos</h1>
+    <form action="form4.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text"  name="nombre" required><br><br>
+
+        <label for="monto">Monto adeudado:</label>
+        <select id="monto" name="monto" required>
+            <option value="1-1000">1 - 1000</option>
+            <option value="1001-10000">1001 - 10000</option>
+            <option value="mas de 10000">Más de 10000</option>
+        </select><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

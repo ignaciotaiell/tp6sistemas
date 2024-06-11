@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Suscripción</title>
+</head>
+<body>
+    <h1>Formulario de Suscripción</h1>
+    <form action="form5.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text"  name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text"  name="apellido" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number"  name="edad" required><br><br>
+
+        <label for="dni">DNI:</label>
+        <input type="text"  name="dni" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date"  name="fecha_nacimiento" required><br><br>
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" required>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+        </select><br><br>
+
+        <label for="lugar_nacimiento">Lugar de Nacimiento:</label>
+        <input type="text"  name="lugar_nacimiento" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text"  name="direccion" required><br><br>
+
+        <label for="intereses">Intereses y/o Hobbies:</label><br>
+        <textarea  name="intereses" rows="4" cols="50"></textarea><br><br>
+
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea  name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

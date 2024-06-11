@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Deportes</title>
+</head>
+<body>
+    <h1>Ingrese sus datos</h1>
+    <form action="form3.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text"  name="nombre" required><br><br>
+
+        <p>Seleccione los deportes que practica:</p>
+        <input type="checkbox"  name="deportes[]" value="Futbol">
+        <label for="futbol">Futbol</label><br>
+        
+        <input type="checkbox"  name="deportes[]" value="Basket">
+        <label for="basket">Basket</label><br>
+        
+        <input type="checkbox"  name="deportes[]" value="Tennis">
+        <label for="tennis">Tennis</label><br>
+        
+        <input type="checkbox"  name="deportes[]" value="Voley">
+        <label for="voley">Voley</label><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
